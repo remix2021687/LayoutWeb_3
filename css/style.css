@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+@keyframes anime1 {
+    form {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+/*Nav block*/
+
+.step-1-img {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://static.tildacdn.com/tild3766-3936-4163-a566-303336643136/breather181289.jpg);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(9, 47, 51, 0.8);;
+    height: 721px;
+}
+
+.step-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.topnav-left a {
+    padding: 0 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.topnav-logo h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.topnav-right p {
+    font-size: 20px;
+    color: white;
+    padding: 0 0 0 30px;
+    font-weight: bold;
+}
+
+.step-1-info {
+    padding: 150px 0;
+    align-self: center;
+}
+
+.step-1-info h2 {
+    font-size: 65px;
+    padding: 24px 0 38px;
+    color: white;
+    text-align: center;
+}
+.step-1-info p {
+    color: white;
+    font-size: 24px;
+    margin: 0 230px;
+    padding: 0 0 30px;
+    text-align: center;
+    width: 700px;
+    line-height: 35px;
+}
+
+.step-1-img img {
+    position: relative;
+    align-self: center;
+    animation: anime1 1s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+/*Nav endblock*/
+
+/*Step-2 content*/
+/*Step-2 endblock*/
