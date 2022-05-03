@@ -140,9 +140,11 @@ html, body {
     text-align: center;
     line-height: 30px;
 }
+
 /*Step-2 endblock*/
 
 /*Step-3 block*/
+
 .step-3  {
     display: flex;
     flex-direction: column;
@@ -213,6 +215,7 @@ html, body {
     font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
     transition: 0.5s;
 }
 
@@ -262,3 +265,94 @@ html, body {
 }
 
 /*Step-4 endblock*/
+
+/*Step-5 block*/
+.step-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.step-5-header {padding: 180px 0 60px;}
+
+.step-5-header h2 {
+    text-align: center;
+    font-size: 52px;
+    padding: 8px 0 3px;
+}
+
+.step-5-header p {
+    width: 760px;
+    font-size: 26px;
+    padding: 41px 0 0;
+    text-align: center;
+}
+
+.step-5-content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 135px;
+}
+
+.inputs {
+    width: 760px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid rgb(153, 149, 149);
+    background: none;
+    margin-bottom: 40px;
+    font-size: 17px;
+}
+
+.textareas {
+    border: none;
+    border-bottom: 1px solid rgb(153, 149, 149);
+    background: none;
+    padding-top: 18px;
+    font-size: 17px;
+    height: 121px;
+    resize: vertical;
+}
+
+.step-5 button {
+    margin: 30px 0 10px;
+    width: 260px;
+    height: 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    align-self: center;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: #259DA8;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.step-5 button:hover {transform: scale(1.1);}
+
+/*Step-5 endblock*/
+
+/*Footer block*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 417px;
+    background-color: whitesmoke;
+}
+
+.footer-up {
+    font-size: 30px;
+    margin: 0 0 45px;
+    text-align: center;
+}
+
+.footer-down {
+    font-size: 18px;
+    margin: 0 0 45px;
+}
+
+/*Footer endblock*/
