@@ -27,7 +27,7 @@ html, body {
     background-position: center;
     background-blend-mode: multiply;
     background-color: rgba(9, 47, 51, 0.8);;
-    height: 721px;
+    height: 100vh;
 }
 
 .step-1 {
@@ -65,13 +65,13 @@ html, body {
 }
 
 .step-1-info {
-    padding: 150px 0 100px 0; 
+    padding: 100px 0 50px 0; 
     align-self: center;
 }
 
 .step-1-info h2 {
     font-size: 65px;
-    padding: 24px 0 38px;
+    padding: 24px 38px;
     color: white;
     text-align: center;
 }
@@ -88,11 +88,9 @@ html, body {
 .updown {align-self: center;}
 
 .updown img {
-    position: relative;
     animation: anime1 1s ease-in-out infinite;
     animation-direction: alternate;
     cursor: pointer;
-    top: -500;
 }
 
 /*Nav endblock*/
@@ -123,7 +121,7 @@ html, body {
 
 .step-2-content h2 {
     font-size: 42px;
-    margin: 0 0 16px;
+    padding-bottom: 16px;
     font-weight: bold;
 }
 
@@ -171,6 +169,11 @@ html, body {
 .step-3-box {
     display: flex;
     flex-direction: row;
+}
+
+.step-3-box img {
+    width: 600px;
+    height: 400px;
 }
 
 .step-3-info {
@@ -356,3 +359,191 @@ html, body {
 }
 
 /*Footer endblock*/
+/*Media block*/
+/* @media (max-width: 1920px) {
+    
+} */
+
+/*1024px*/
+@media (max-width: 1025px) {
+    .step-1-info p {width: auto;}
+    .step-1-info h2 {font-size: 55px;}
+    .step-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step-3-info {width: 300px;}
+    .step-3-info p {margin: 0;}
+    
+    .step-3-box img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .step-4-content {
+        display: flex;
+        flex-flow: column;
+        width: auto;
+    }
+    
+    .step-4-content p {
+        margin-top: 12px;
+        font-size: 16px;
+        width: 360px;
+    }
+}
+
+/*768px*/
+@media (max-width: 769px) {
+    .topnav {flex-direction: column;}
+    .topnav-left {margin-top: 10px;}
+    .topnav-right p {padding: 0;}
+    .topnav-logo {padding: 10px 0 10px 0;}
+
+    .step-1-info {padding: 150px 0 50px 0;}
+    .step-1-info h2 {font-size: 35px;}
+    .step-1-info p {
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .step-2 img {
+        max-width: 100%;
+    }
+    .step-2-content {
+        width: auto;
+        height: 560px;
+        margin: 0;
+    }
+    .step-2-content h2 {font-size: 32px;}
+    .step-2-content p {
+        font-size: 16px;
+        margin: 0;
+        padding-bottom: 28px;
+    }
+
+    .step-3-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .step-3-footer button {
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .inputs {width: 600px;}
+
+    .step-5-header h2 {font-size: 35px;}
+    
+    .step-5-header p {
+        font-size: 26px;
+        padding: 30px 0 0;
+    }
+
+}
+
+/*425px*/
+@media (max-width: 426px) {
+    .step-3-box {flex-direction: column;}
+    .step-3-info {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .step-3-header p {
+        font-size: 20px;
+        line-height: 30px;
+        width: auto;
+    }
+    
+    .step-3-header h2 {font-size: 42px;}
+
+    .step-3-footer p {
+        width: auto;
+        margin: 0;
+    }
+    
+    .step-5-header p {
+        width: auto;
+        font-size: 16px;
+        padding: 30px 10px 0 10px;
+    }
+
+    .inputs {width: 300px;}
+
+    .footer-up {font-size: 20px;}
+    
+}
+
+/*375px*/
+@media (max-width: 376px) {
+    .step-1-info {padding: 100px 0 50px 0;}
+    .step-3-box img {
+        width: 300px;
+        height: 300px;
+        align-self: center;
+    }
+
+    .step-3-info {
+        width: 300px;
+        height: 300px;
+    }
+
+    .step-3-info h2 {font-size: 25px;}
+
+    .step-3-info p {
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .step-3-footer p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .step-4-header h2 {font-size: 32px;}
+
+    .step-4-box {justify-content: center;}
+
+    .step-4-content p {
+        width: auto;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 15px 20px 0 20px;
+    }
+
+    .step-5-header h2 {font-size: 30px;}
+    
+    .step-5-header p {
+        font-size: 16px;
+        padding: 15px 10px 0 10px;
+    }
+
+}
+
+/*320px*/
+@media (max-width: 320px) {
+    .step-1-info {padding: 100px 0 50px 0;}
+    .step-1-info h2 {font-size: 25px;}
+    .step-1-info p {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .step-5-header h2 {font-size: 25px;}
+    
+    .step-5-header p {
+        font-size: 15px;
+        padding: 15px 10px;
+    }
+
+    .footer-up {font-size: 16px;}
+    .footer-down {font-size: 16px;}
+}
+/*Media endblock*/
