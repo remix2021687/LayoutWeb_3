@@ -1,2 +1,2 @@
 # Layout3
-#not supported adaptive
+#Supported adaptive
